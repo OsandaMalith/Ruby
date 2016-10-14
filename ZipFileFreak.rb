@@ -88,7 +88,7 @@ cls
 banner
 passwords=File.open(options[:wordlist]).readlines.shuffle
 puts "\n[*] Loaded #{passwords.size} passwords...."
-puts "[*] Launching Zipy Cracker...."
+puts "[*] Launching Zip File Freak...."
 total=passwords.size
 while(passwords.size > 0)
   pass=passwords.pop.chomp
